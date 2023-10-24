@@ -1,0 +1,280 @@
+* {
+  margin: 0 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  background: transparent;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #e6f7ff;
+  overflow: hidden;
+  overflow-y: hidden;
+  color: black;
+}
+
+.loginPageOuter {
+  background: white;
+  margin: 4vh 0vw 0vh 60vh;
+  border: 2px solid black;
+  border-radius: 1rem;
+  width: 30vw;
+  height: 50vh;
+}
+
+.loginPageInner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  flex-wrap: wrap;
+  flex-grow: 1;
+}
+
+.LoginBtb {
+  background-color: #9999ff;
+  color: whitesmoke;
+  width: 25vw;
+  height: 4vh;
+  border: 2px solid black;
+  border-radius: 0.75rem;
+  font-size: medium;
+  margin: 1vh 2vw;
+  padding: 1vh 1vw 1vh 1vh;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.loginHeader {
+  font-size: 2rem;
+  margin-bottom: 5vh;
+  margin-top: 1vh;
+  font-weight: bold;
+}
+
+.email,
+.password,
+.RepeatPassword,
+.uname {
+  width: 25vw;
+  height: 4vh;
+  border: 2px solid black;
+  border-radius: 0.75rem;
+  margin-bottom: 2vh;
+  padding: 1vh 1vw;
+}
+
+.loginPageOuter1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow: hidden;
+  background: white;
+  margin: 4vh 0vw 0vh 60vh;
+  border: 2px solid black;
+  border-radius: 1rem;
+  width: 30vw;
+  height: 5vh;
+  padding: 1vh 1vw;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.75rem;
+}
+
+.clsCreateAccountText {
+  padding-left: 1vw;
+}
+
+.clsCreateAccountText1 {
+  padding-right: 1vw;
+  color: #9999ff;
+}
+
+.signUpPageOuter {
+  background: white;
+  margin: 4vh 0vw 0vh 60vh;
+  border: 2px solid black;
+  border-radius: 1rem;
+  width: 30vw;
+  height: 60vh;
+}
+
+.signInFooter {
+  font-weight: 300;
+  font-size: 1rem;
+  padding-top: 33vh;
+}
+
+.PageCnt {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: center;
+}
+
+.signUpFooter {
+  font-weight: 300;
+  font-size: 1rem;
+  padding-top: 23vh;
+}
+
+.errorCnt {
+  border: 1px solid red;
+  border-radius: 1rem;
+  padding: 1rem 1rem;
+  background-color: transparent;
+  background: red;
+}
+
+.logOutbtn {
+  width: 5rem;
+  height: 2rem;
+  background: whitesmoke;
+  color: black;
+  border: 2px solid black;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.TodolistHeader {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow: hidden;
+  margin: 1vh 1vw;
+}
+
+.todoListOuterPage {
+  background: white;
+  margin: 4vh 0vw 0vh 0vh;
+  border: 2px solid black;
+  border-radius: 1rem;
+  width: 80vw;
+  height: 15vh;
+}
+
+.todoListAlignment {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex-grow: 1;
+}
+
+.addTodoField {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  overflow: hidden;
+}
+
+.createTodoField {
+  margin-top: 1vh;
+  border: 2px solid black;
+  border-radius: 1rem;
+  width: 98%;
+  height: 6vh;
+  padding: 1vh 1vw;
+}
+
+.addNewTaskBtn {
+  margin-top: 3vh;
+  width: 98%;
+  height: 2rem;
+  background: #9999ff;
+  color: white;
+  font-weight: bold;
+  border: 2px solid black;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.todoTaskListOuterPage {
+  background: white;
+  margin: 4vh 0vw 0vh 0vh;
+  border: 2px solid black;
+  border-radius: 1rem;
+  width: 80vw;
+  height: auto;
+  padding: 1vh 1vw;
+  max-height: 55vh;
+  overflow-y: auto;
+  padding: 20px;
+}
+
+.todoListTaskAligment {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;
+  align-items: center; */
+  flex-wrap: nowrap;
+}
+
+.formfieldAligment {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-grow: 1;
+}
+
+.taskNameField {
+  margin: 2vh 0vw;
+  width: 70%;
+  height: 4vh;
+  border: 2px solid black;
+  border-radius: 0.5rem;
+  padding: 1vh 1vw;
+}
+
+.checkBox {
+  margin-left: 2vh;
+  margin-top: 2vh;
+}
+
+.edit,
+.delete {
+  margin-left: 2vw;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  border: 2px solid black;
+  border-radius: 0.5rem;
+  width: 5vw;
+  height: 5vh;
+  background-color: #9999ff;
+  color: white;
+  font-weight: 500;
+  font-size: medium;
+}
+
+.todoFooter {
+  font-weight: 300;
+  font-size: 1rem;
+  padding-top: 10vh;
+}
+
+.editTodoFooter {
+  font-weight: 300;
+  font-size: 1rem;
+  padding-top: 67vh;
+}
+
+.notFoundTodoFooter {
+  font-weight: 300;
+  font-size: 1rem;
+  padding-top: 85vh;
+}
+
+.forgotPasswordFooter {
+  font-weight: 300;
+  font-size: 1rem;
+  padding-top: 42vh;
+}
